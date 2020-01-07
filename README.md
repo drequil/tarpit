@@ -35,6 +35,8 @@ mvn clean compile package
 
 The `servlettarpit.war` artifact is generated in the `target` directory which can be used for further analysis.
 
+Note: Tarpit application uses sun.misc libraries which are confirmed to work with Java 1.8.  In the event of build errors, please see: https://stackoverflow.com/a/52652249
+
 > :information_source: This packaged WAR file is intended NOT to run or be deployed in a web container. Its main goal is to be an aid for security professionals to test with [Ocular](https://ocular.shiftleft.io)
 
 - - -
